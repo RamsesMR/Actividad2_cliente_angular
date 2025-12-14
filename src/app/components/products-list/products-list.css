@@ -1,0 +1,19 @@
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.miImagen{
+max-height: 250px;
+min-height: 250px;
+object-fit: contain;
+
+}
+
+.miTitulo{
+    max-height: 70px;
+min-height: 70px;
+
+}

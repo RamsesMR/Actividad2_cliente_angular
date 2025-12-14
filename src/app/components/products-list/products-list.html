@@ -1,0 +1,25 @@
+<div class="contenedor">
+
+@for (e of productos; track $index) {
+
+    <div class="card" style="width: 18rem;">
+  <img src="{{e.image}}" class="card-img-top miImagen" alt="{{e.name}}">
+  <div class="card-body" style="background-color: whitesmoke;">
+    <h5 class="card-title text-center miTitulo">{{e.name}}</h5>
+    <p class="card-text">{{e.price}} €</p>
+    @if(e.active){
+         <p class="card-text text-success">Disponible</p>
+    }@else {
+        <p class="card-text text-danger">No Disponible</p>
+    }
+    <div style="display: flex; justify-content: space-around;">
+        <a href="#" class="btn btn-primary">Comprar</a>
+        <a href="#" class="btn btn-danger">Eliminar</a>
+    </div>
+    
+  </div>
+</div>
+
+    <p></p>
+}
+</div>

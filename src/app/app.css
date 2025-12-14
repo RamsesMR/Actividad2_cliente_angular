@@ -1,0 +1,30 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 500px auto 150px;
+    grid-template-areas: 
+    "app-navbar"
+    "app-header"
+    "main"
+    "app-footer";
+}
+
+app-navbar{
+    display: grid;
+    grid-area: app-navbar;
+}
+app-header{
+    display: grid;
+    grid-area: app-header;
+    background-color: aquamarine;
+}
+
+main{
+    display: grid;
+    grid-area: main;
+}
+
+app-footer{
+    display: grid;
+    grid-area: app-footer;
+}

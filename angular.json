@@ -50,6 +50,7 @@
               }
             ],
             "styles": [
+              "bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ]
           },
@@ -107,6 +108,7 @@
               }
             ],
             "styles": [
+            
               "src/styles.css"
             ]
           }
