@@ -1,0 +1,22 @@
+
+
+<form class="form-control" [formGroup]="formulario" (ngSubmit)="enviar()">
+
+    <label class="form-label">Name</label>
+    <input class="form-control" type="text" formControlName="name">
+
+    <label class="form-label">Price</label>
+    <input class="form-control" type="text" formControlName="price">
+
+    <label class="form-label">Description</label>
+    <input class="form-control" type="text" formControlName="description">
+
+    <label class="form-label">image</label>
+    <input class="form-control" type="text" formControlName="image">
+
+    <label class="form-label">Category</label>
+    <input class="form-control" formControlName="category">
+
+    <button class="btn btn-primary w-100" type="submit">Crear Productos</button>
+
+</form>
